@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-repo.git'
+                git 'https://github.com/vineethakondepudi/IntroScreen.git'
             }
         }
         stage('Build APK') {
